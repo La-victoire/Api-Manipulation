@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import { debounce } from "lodash";
 import { CiSearch } from "react-icons/ci";
+import { MdOutlineCancel } from "react-icons/md";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -48,7 +49,6 @@ const Home = () => {
   // Handles real-time input changes
   const handleChange = (e) => {
     const value = e.target.value;
-    setSearchParams(value.trim() ? { search: value.trim() } : {});
     debouncedSearch(value);
   };
 
@@ -61,6 +61,11 @@ const Home = () => {
     e.preventDefault();
     setSearch(searchQuery.trim() !== "");
   };
+  const cancelSearch = (e) => {
+    e.preventDefault();
+    setSearchParams({});
+    setSearch(false);
+  }
 
   const onChecked = (e) => {
     setCheck(e.target.checked);
@@ -80,6 +85,9 @@ const Home = () => {
           />
           <button aria-label="search-btn" type="submit" className="search-btn text-white">
             <CiSearch />
+          </button>
+          <button aria-label="cancel-btn" className="search-btn text-white" onClick={cancelSearch}>
+          <MdOutlineCancel />
           </button>
         </form>
 
