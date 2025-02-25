@@ -59,5 +59,5 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
-👨‍💻 Developed by [Oghuvbu Victory](https://github.com/your-username)
+👨‍💻 Developed by [Oghuvbu Victory](https://github.com/La-victoire)
 
