@@ -52,12 +52,12 @@ If given more time, the following features would be implemented:
 
 ## 📦 Deployment
 The project is deployed on **Vercel**/**Netlify**/**GitHub Pages**.
-- Live Demo: [Your Deployed Link](https://your-deployed-app.com)
+- Live Demo: [TO DO LIST](https://to-do-mu-wheat-21.vercel.app/)
 
 ## 📝 License
 This project is open-source and available under the **MIT License**.
 
 ---
 
-👨‍💻 Developed by [Your Name](https://github.com/your-username)
+👨‍💻 Developed by [Oghuvbu Victory](https://github.com/your-username)
 
