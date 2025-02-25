@@ -51,7 +51,7 @@ If given more time, the following features would be implemented:
 - **Improve search functionality** to allow filtering by multiple fields.
 
 ## 📦 Deployment
-The project is deployed on **Vercel**/**Netlify**/**GitHub Pages**.
+The project is deployed on **Vercel**.
 - Live Demo: [TO DO LIST](https://to-do-mu-wheat-21.vercel.app/)
 
 ## 📝 License
