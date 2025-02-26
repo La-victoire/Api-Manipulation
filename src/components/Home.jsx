@@ -106,7 +106,7 @@ const Home = () => {
               <div className="flex flex-col text-black">
                 <p className="text-xl">
                   <input
-                    className="h-4 w-4"
+                    className="h-4 w-4 pr-3"
                     type="checkbox"
                     onChange={onChecked}
                     checked={Todo.completed}
