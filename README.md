@@ -46,9 +46,10 @@ This will start the project at `http://localhost:3000/` (or another available po
 ## 🌟 Possible Improvements
 If given more time, the following features would be implemented:
 - **Utilize additional API data** to create a **mock blog application** with comments, likes, and user profiles.
-- **Enhance user experience** by adding interactive UI elements.
+- **Enhance user experience** by adding a means of creating custom to-do tasks.
 - **Implement authentication** to associate tasks with user profiles.
 - **Improve search functionality** to allow filtering by multiple fields.
+
 
 ## 📦 Deployment
 The project is deployed on **Vercel**.
