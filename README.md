@@ -1,4 +1,4 @@
-# React Paginated To-Do List
+# React Trash Paginated To-Do List
 
 ## 📌 Project Overview
 This project is a React-based to-do list that fetches tasks from an API and implements pagination for better usability. Users can navigate between pages to view tasks in batches of 20 items per page.
